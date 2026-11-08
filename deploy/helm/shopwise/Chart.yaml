@@ -1,0 +1,6 @@
+apiVersion: v2
+name: shopwise
+description: Déploiement de démonstration de l’interface et de l’API ShopWise
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

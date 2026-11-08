@@ -1,0 +1,5 @@
+# Traçabilité des outils et relecture
+
+Ce support a été préparé avec un outil d’assistance générative pour proposer une première structure de documentation, de code et de tests. Cette indication ne remplace pas la déclaration officielle requise par la charte iSCOD/Visiplus. Avant remise, la personne apprenante doit utiliser le formulaire de l’école, préciser les sections concernées et la raison d’usage, et conserver les consignes/résultats si cela lui est demandé. Le contenu doit être vérifié, corrigé et compris; aucune expérience personnelle n’est inventée.
+
+Pistes de vérification manuelle : revoir le modèle et les contraintes SQL; exécuter les parcours; justifier l’idempotence des points; observer la responsive design; commenter les limites RGPD et expliquer les fichiers CI/Docker/Helm. Les environnements ayant servi à préparer le paquet ne disposent pas de Java/Maven, Docker, Helm ou kubectl : les tests et conteneurs doivent être lancés dans un environnement approprié avant validation pédagogique.

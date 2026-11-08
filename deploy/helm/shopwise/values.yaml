@@ -1,0 +1,14 @@
+backend:
+  image: {repository: shopwise-backend, tag: "1.0.0", pullPolicy: IfNotPresent}
+  replicas: 1
+frontend:
+  image: {repository: shopwise-frontend, tag: "1.0.0", pullPolicy: IfNotPresent}
+  replicas: 1
+service:
+  backendPort: 8080
+  frontendPort: 80
+# À remplacer par un Secret Kubernetes pour un environnement réel.
+database:
+  url: jdbc:postgresql://postgres:5432/shopwise
+  username: shopwise
+  password: change-me

@@ -1,0 +1,2 @@
+Accès frontend : minikube service {{ .Release.Name }}-frontend
+API backend disponible dans le cluster sur {{ .Release.Name }}-backend:{{ .Values.service.backendPort }}.

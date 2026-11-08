@@ -1,0 +1,31 @@
+services:
+  database:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: shopwise
+      POSTGRES_USER: shopwise
+      POSTGRES_PASSWORD: shopwise
+    ports: ["5432:5432"]
+    volumes:
+      - shopwise-data:/var/lib/postgresql/data
+      - ./bdd/script.sql:/docker-entrypoint-initdb.d/01-shopwise.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shopwise -d shopwise"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  backend:
+    build: ./src/backend
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/shopwise
+      SPRING_DATASOURCE_USERNAME: shopwise
+      SPRING_DATASOURCE_PASSWORD: shopwise
+    depends_on:
+      database: {condition: service_healthy}
+    ports: ["8080:8080"]
+  frontend:
+    build: ./src/frontend
+    depends_on: [backend]
+    ports: ["4200:80"]
+volumes:
+  shopwise-data:

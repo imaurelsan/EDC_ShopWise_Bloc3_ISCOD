@@ -1,15 +1,15 @@
 package fr.shopwise.api.service;
 import fr.shopwise.api.model.*; import fr.shopwise.api.repo.*;
 import org.springframework.stereotype.Service; import org.springframework.transaction.annotation.Transactional;
-import java.time.LocalDate; import java.util.List;
+import java.time.LocalDate; import java.time.LocalTime; import java.util.List;
 @Service
 public class ShopService {
  private final CustomerRepository customers; private final AppointmentRepository appointments; private final LoyaltyRepository loyalty;
  public ShopService(CustomerRepository c,AppointmentRepository a,LoyaltyRepository l){customers=c;appointments=a;loyalty=l;}
  public Customer saveCustomer(Customer c){return customers.save(c);}
  public Customer customer(Long id){return customers.findById(id).orElseThrow(()->new ResourceMissingException("Client introuvable"));}
- public Appointment createAppointment(Long customerId, LocalDate date, String service){
-  Customer c=customer(customerId); Appointment a=new Appointment(); a.setCustomer(c); a.setDate(date); a.setService(service); return appointments.save(a);
+ public Appointment createAppointment(Long customerId, LocalDate date, LocalTime time, String service){
+  Customer c=customer(customerId); Appointment a=new Appointment(); a.setCustomer(c); a.setDate(date); a.setTime(time); a.setService(service); return appointments.save(a);
  }
  public List<Appointment> listAppointments(LocalDate date, Appointment.Status status, Long customerId){
   if(date!=null&&status!=null&&customerId!=null)return appointments.findAllByDateAndStatusAndCustomer_Id(date,status,customerId);

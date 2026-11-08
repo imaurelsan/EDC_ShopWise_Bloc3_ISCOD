@@ -8,7 +8,7 @@
 | Q2 schéma PDF | `bdd/schema base de données.pdf` | Présent |
 | Q2 SQL structure et données d’essai | `bdd/script.sql` | Présent |
 | Q3 backend Java Spring Boot | `src/backend/` | Code présent; exécution non validée dans cet environnement |
-| Q3 frontend Angular | `src/frontend/` | Code présent; exécution non validée dans cet environnement |
+| Q3 frontend Angular | `src/frontend/` | Code présent; création/mise à jour client et filtres date/statut/client; exécution non validée ici |
 | Q4 tests backend et frontend | `src/backend/src/test/`, `src/frontend/src/app/` | Sources de tests présentes; non lancées ici |
 | Q4 rapports frontend/backend | `couverture/` | Guides d’emplacement; rapports réels à générer en CI, aucun pourcentage simulé |
 | Q5 pipeline build, tests et couverture téléchargeable | `.github/workflows/ci.yml` | Configuration présente; dépend des secrets et du runner GitHub |

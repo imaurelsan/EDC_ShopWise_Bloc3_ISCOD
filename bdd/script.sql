@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS appointment (
   id BIGSERIAL PRIMARY KEY,
   customer_id BIGINT NOT NULL REFERENCES customer(id),
   appointment_date DATE NOT NULL,
+  appointment_time TIME NOT NULL,
   service VARCHAR(160) NOT NULL,
   status VARCHAR(16) NOT NULL DEFAULT 'PLANNED'
     CHECK (status IN ('PLANNED','HONORED','CANCELLED')),
@@ -38,9 +39,15 @@ INSERT INTO customer(id,shop_id,name,email,phone) VALUES
  (1,1,'Camille Exemple','camille@example.test','0600000001'),
  (2,1,'Alex Démonstration','alex@example.test','0600000002')
 ON CONFLICT (id) DO NOTHING;
-INSERT INTO appointment(id,customer_id,appointment_date,service,status) VALUES
- (1,1,CURRENT_DATE + 1,'Conseil produits','PLANNED'),
- (2,2,CURRENT_DATE - 1,'Retrait de commande','HONORED')
+INSERT INTO appointment(id,customer_id,appointment_date,appointment_time,service,status) VALUES
+ (1,1,CURRENT_DATE + 1,'10:00','Conseil produits','PLANNED'),
+ (2,2,CURRENT_DATE - 1,'11:30','Retrait de commande','HONORED')
 ON CONFLICT (id) DO NOTHING;
 INSERT INTO loyalty_transaction(customer_id,appointment_id,points_delta,reason)
 VALUES (2,2,10,'Rendez-vous honoré') ON CONFLICT (appointment_id) DO NOTHING;
+
+-- Les séquences continuent après les identifiants explicites des exemples.
+SELECT setval(pg_get_serial_sequence('shop','id'), COALESCE((SELECT MAX(id) FROM shop), 1));
+SELECT setval(pg_get_serial_sequence('customer','id'), COALESCE((SELECT MAX(id) FROM customer), 1));
+SELECT setval(pg_get_serial_sequence('appointment','id'), COALESCE((SELECT MAX(id) FROM appointment), 1));
+SELECT setval(pg_get_serial_sequence('loyalty_transaction','id'), COALESCE((SELECT MAX(id) FROM loyalty_transaction), 1));

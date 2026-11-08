@@ -19,4 +19,30 @@ class ShopServiceTest {
   ShopService s=new ShopService(mock(CustomerRepository.class),ar,mock(LoyaltyRepository.class));
   assertThrows(ResourceMissingException.class,()->s.changeStatus(2L,Appointment.Status.CANCELLED));
  }
+ @Test void filtresDeRendezVousSontTransmisAuDepot(){
+  CustomerRepository cr=mock(CustomerRepository.class);AppointmentRepository ar=mock(AppointmentRepository.class);LoyaltyRepository lr=mock(LoyaltyRepository.class);ShopService s=new ShopService(cr,ar,lr);
+  LocalDate d=LocalDate.of(2026,11,8);Appointment.Status st=Appointment.Status.PLANNED;
+  s.listAppointments(d,st,1L);verify(ar).findAllByDateAndStatusAndCustomer_Id(d,st,1L);
+  s.listAppointments(d,st,null);verify(ar).findAllByDateAndStatus(d,st);
+  s.listAppointments(d,null,1L);verify(ar).findAllByDateAndCustomer_Id(d,1L);
+  s.listAppointments(null,st,1L);verify(ar).findAllByStatusAndCustomer_Id(st,1L);
+  s.listAppointments(d,null,null);verify(ar).findAllByDate(d);
+  s.listAppointments(null,st,null);verify(ar).findAllByStatus(st);
+  s.listAppointments(null,null,1L);verify(ar).findAllByCustomer_Id(1L);
+  s.listAppointments(null,null,null);verify(ar).findAll();
+ }
+ @Test void soldeEstLaSommeDesMouvements(){
+  CustomerRepository cr=mock(CustomerRepository.class);LoyaltyRepository lr=mock(LoyaltyRepository.class);Customer c=new Customer();c.setId(5L);
+  when(cr.findById(5L)).thenReturn(Optional.of(c));LoyaltyTransaction t=new LoyaltyTransaction();t.setPointsDelta(10);
+  when(lr.findAllByCustomer_IdOrderByCreatedAtDesc(5L)).thenReturn(java.util.List.of(t));
+  ShopService.LoyaltySummary result=new ShopService(cr,mock(AppointmentRepository.class),lr).loyalty(5L);
+  assertEquals(10,result.balance());assertEquals(1,result.transactions().size());
+ }
+ @Test void creeRendezVousApresAvoirTrouveLeClient(){
+  CustomerRepository cr=mock(CustomerRepository.class);AppointmentRepository ar=mock(AppointmentRepository.class);Customer c=new Customer();c.setId(1L);
+  when(cr.findById(1L)).thenReturn(Optional.of(c));when(ar.save(any())).thenAnswer(x->x.getArgument(0));
+  Appointment a=new ShopService(cr,ar,mock(LoyaltyRepository.class)).createAppointment(1L,LocalDate.now(),java.time.LocalTime.NOON,"Test");
+  assertEquals(c,a.getCustomer());assertEquals(java.time.LocalTime.NOON,a.getTime());
+ }
+
 }

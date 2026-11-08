@@ -11,7 +11,7 @@ Le commerçant tient les coordonnées, crée et filtre les rendez-vous et met à
 | Réf. | User story | Conditions d’acceptation retenues |
 |---|---|---|
 | US1 | Commerçant, créer/mettre à jour une fiche client (nom, email, téléphone) | Nom et email requis; email au format valide; lecture et mise à jour par identifiant. |
-| US2 | Commerçant, créer un rendez-vous (client, date, heure, service) | Client existant; service et date requis; état initial `PLANNED`. |
+| US2 | Commerçant, créer un rendez-vous (client, date, heure, service) | Client existant; service, date et heure requis; état initial `PLANNED`. |
 | US3 | Commerçant, lister et filtrer les rendez-vous par date, état, client | Chaque filtre est optionnel et combinable. |
 | US4 | Commerçant, déclarer honoré ou annulé | Seuls `PLANNED` et `CANCELLED` peuvent être honorés; un rendez-vous honoré ne récompense qu’une fois. |
 | US5 | Commerçant, attribuer des points après rendez-vous honoré | 10 points de démonstration crédités lors de la transition vers `HONORED`, une seule transaction par rendez-vous. |

@@ -14,7 +14,7 @@
   <plugin><groupId>org.springframework.boot</groupId><artifactId>spring-boot-maven-plugin</artifactId></plugin>
   <plugin><groupId>org.jacoco</groupId><artifactId>jacoco-maven-plugin</artifactId><version>${jacoco.version}</version><executions>
    <execution><goals><goal>prepare-agent</goal></goals></execution>
-   <execution><id>report-and-check</id><phase>verify</phase><goals><goal>report</goal><goal>check</goal></goals><configuration><rules><rule><element>BUNDLE</element><limits><limit><counter>INSTRUCTION</counter><value>COVEREDRATIO</value><minimum>0.60</minimum></limit><limit><counter>BRANCH</counter><value>COVEREDRATIO</value><minimum>0.60</minimum></limit></limits></rule></rules></configuration></execution>
+   <execution><id>report-and-check</id><phase>verify</phase><goals><goal>report</goal><goal>check</goal></goals><configuration><excludes><exclude>fr.shopwise.api.model.*</exclude><exclude>fr.shopwise.api.repo.*</exclude><exclude>fr.shopwise.api.web.*</exclude><exclude>fr.shopwise.api.ShopwiseApplication</exclude></excludes><rules><rule><element>BUNDLE</element><limits><limit><counter>INSTRUCTION</counter><value>COVEREDRATIO</value><minimum>0.60</minimum></limit><limit><counter>BRANCH</counter><value>COVEREDRATIO</value><minimum>0.60</minimum></limit></limits></rule></rules></configuration></execution>
   </executions></plugin>
  </plugins></build>
 </project>

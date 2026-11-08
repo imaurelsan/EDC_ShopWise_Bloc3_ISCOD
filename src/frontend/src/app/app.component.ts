@@ -24,11 +24,12 @@ export class AppComponent implements OnInit {
  ngOnInit():void {this.loadCustomers();this.loadAppointments();}
  loadCustomers():void {this.http.get<Customer[]>(this.api+'/clients').subscribe({next:v=>this.customers=v,error:()=>this.error='Impossible de joindre les clients. Vérifiez que l’API est lancée.'});}
  loadAppointments():void {let p=new HttpParams();if(this.filterDate)p=p.set('date',this.filterDate);if(this.filterStatus)p=p.set('status',this.filterStatus);if(this.filterCustomerId)p=p.set('customerId',this.filterCustomerId);this.http.get<Appointment[]>(this.api+'/appointments',{params:p}).subscribe({next:v=>this.appointments=v,error:()=>this.error='La liste des rendez-vous ne peut pas être chargée.'});}
+ loadCustomerAppointments():void {this.filterCustomerId='';this.loadAppointments();}
  saveCustomer():void {const request=this.editingCustomerId ? this.http.put<Customer>(this.api+'/clients/'+this.editingCustomerId,this.customerForm) : this.http.post<Customer>(this.api+'/clients',this.customerForm);request.subscribe({next:()=>{this.cancelEdit();this.loadCustomers();this.error='';},error:()=>this.error='Vérifiez les informations du client.'});}
  editCustomer(c:Customer):void {this.editingCustomerId=c.id;this.customerForm={shopId:c.shopId,name:c.name,email:c.email,phone:c.phone||''};}
  cancelEdit():void {this.editingCustomerId=null;this.customerForm={shopId:1,name:'',email:'',phone:''};}
- saveAppointment():void {if(!this.appointmentForm.customerId)return;this.http.post(this.api+'/appointments',this.appointmentForm).subscribe({next:()=>{this.loadAppointments();this.appointmentForm={customerId:null,date:'',time:'',service:''};this.error='';},error:()=>this.error='Le rendez-vous n’a pas pu être créé.'});}
- setStatus(a:Appointment,status:'HONORED'|'CANCELLED'):void {this.http.patch(this.api+'/appointments/'+a.id+'/status',{status}).subscribe({next:()=>this.loadAppointments(),error:()=>this.error='La mise à jour a échoué.'});}
+ saveAppointment():void {if(!this.appointmentForm.customerId)return;this.http.post(this.api+'/appointments',this.appointmentForm).subscribe({next:()=>{this.loadCustomerAppointments();this.appointmentForm={customerId:null,date:'',time:'',service:''};this.error='';},error:()=>this.error='Le rendez-vous n’a pas pu être créé.'});}
+ setStatus(a:Appointment,status:'HONORED'|'CANCELLED'):void {this.http.patch(this.api+'/appointments/'+a.id+'/status',{status}).subscribe({next:()=>this.loadCustomerAppointments(),error:()=>this.error='La mise à jour a échoué.'});}
  selectCustomer(c:Customer):void {this.selectedName=c.name;this.http.get<Loyalty>(this.api+'/clients/'+c.id+'/loyalty').subscribe({next:v=>this.loyalty=v,error:()=>this.error='Historique de fidélité indisponible.'});}
  label(s:Appointment['status']):string {return s==='PLANNED'?'À venir':s==='HONORED'?'Honoré':'Annulé';}
 }

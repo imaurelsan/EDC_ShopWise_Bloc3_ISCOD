@@ -1,0 +1,254 @@
+2026.11.08 20:26:03 INFO  Started: Metals version 1.6.9 in folders 'C:\Users\imaur\Desktop\shopwise-projet' for client Visual Studio Code 1.145.2.
+2026.11.08 20:26:03 INFO  Memory monitor started
+2026.11.08 20:26:05 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.11.08 20:26:05 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+nov. 08, 2026 8:26:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+2026.11.08 20:26:06 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:06 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:06 WARN  no build tool detected in workspace 'C:\Users\imaur\Desktop\shopwise-projet'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.11.08 20:26:06 WARN  Build server is not auto-connectable.
+2026.11.08 20:26:06 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+2026.11.08 20:26:08 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:08 INFO  time: code lens generation in 1.93s
+2026.11.08 20:26:10 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:16 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:24 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:26 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:34 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:36 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:36 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:37 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:37 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/main/java/fr/shopwise/api/service/ShopService.java]
+2026.11.08 20:26:37 INFO  empty definition using pc, found symbol in pc: _empty_/CustomerRepository# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-26-37-838.md")
+2026.11.08 20:26:37 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\repo\CustomerRepository.java
+2026.11.08 20:26:37 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\repo\CustomerRepository.java. Using fallback presentation compiler.
+2026.11.08 20:26:38 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:39 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:39 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:41 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:41 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:42 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:58 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:58 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:58 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:26:58 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:27 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:31 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:31 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/main/java/fr/shopwise/api/service/ShopService.java]
+2026.11.08 20:27:31 INFO  empty definition using pc, found symbol in pc: _empty_/LoyaltyTransaction# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-27-31-862.md")
+2026.11.08 20:27:31 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\model\LoyaltyTransaction.java
+2026.11.08 20:27:31 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\model\LoyaltyTransaction.java. Using fallback presentation compiler.
+2026.11.08 20:27:31 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:31 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+nov. 08, 2026 8:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 59
+2026.11.08 20:27:31 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:34 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:34 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:27:34 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:45 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:45 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:46 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:53 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+nov. 08, 2026 8:28:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 73
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+nov. 08, 2026 8:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 81
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:53 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:54 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:55 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+2026.11.08 20:28:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:54 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+nov. 08, 2026 8:28:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 98
+2026.11.08 20:28:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:56 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+2026.11.08 20:28:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:57 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:57 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+2026.11.08 20:28:57 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:28:57 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:34:18 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:36:13 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:36:47 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 20:36:50 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+nov. 08, 2026 8:36:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 124
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:50 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  empty definition using pc, found symbol in pc: org/junit/jupiter/api/Test# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-029.md")
+2026.11.08 20:36:51 INFO  empty definition using pc, found symbol in pc: org/junit/jupiter/api/Test# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-029.md")
+2026.11.08 20:36:51 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ShopServiceTest.java]
+2026.11.08 20:36:51 INFO  empty definition using pc, found symbol in pc: org/junit/jupiter/api/Test# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-029.md")
+2026.11.08 20:36:51 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:51 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ShopServiceTest.java]
+2026.11.08 20:36:51 INFO  empty definition using pc, found symbol in pc: org/junit/jupiter/api/Assertions# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-242.md")
+2026.11.08 20:36:52 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:52 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ShopServiceTest.java]
+2026.11.08 20:36:52 INFO  empty definition using pc, found symbol in pc: org/mockito/Mockito# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-936.md")
+2026.11.08 20:36:55 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: org/mockito/Mockito# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-936.md")
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: org/mockito/Mockito# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-52-936.md")
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ShopServiceTest.java]
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: java/time/LocalDate# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-56-349.md")
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: java/time/LocalDate# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-56-349.md")
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: java/util/Optional# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-56-485.md")
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: java/util/Optional# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-56-485.md")
+2026.11.08 20:36:56 INFO  Created report: Optional[file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ShopServiceTest.java]
+2026.11.08 20:36:56 INFO  empty definition using pc, found symbol in pc: java/util/Optional# (full report at: "C:\Users\imaur\Desktop\shopwise-projet\.metals\.reports\metals-full\2026-11-08\r_empty-definition_20-36-56-485.md")
+2026.11.08 20:36:57 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:36:58 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 20:59:16 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:01:20 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:01:22 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:01:22 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:03:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:04:00 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:07 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+nov. 08, 2026 9:05:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 166
+2026.11.08 21:05:07 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:09 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:09 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ShopServiceTest.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+nov. 08, 2026 9:05:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 174
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:05:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:05:12 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:39:56 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:00 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:00 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:02 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:02 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:03 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:03 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:08 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:40:08 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:42:16 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java. Using fallback presentation compiler.
+2026.11.08 21:42:28 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java
+2026.11.08 21:42:28 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:28 WARN  Running javac-semanticdb failed for file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ResourceMissingExceptionTest.java. Output:
+
+2026.11.08 21:42:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:29 WARN  Running javac-semanticdb failed for file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/service/ResourceMissingExceptionTest.java. Output:
+
+2026.11.08 21:42:29 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java
+2026.11.08 21:42:29 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:30 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:42:30 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:21 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:21 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:21 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:21 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:22 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:21 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:22 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java
+2026.11.08 21:43:23 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:23 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 21:43:24 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 22:05:24 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 22:05:24 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java
+2026.11.08 22:05:24 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+2026.11.08 22:05:24 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\service\ResourceMissingExceptionTest.java. Using fallback presentation compiler.
+nov. 08, 2026 10:05:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/c%3A/Users/imaur/Desktop/shopwise-projet/src/backend/target/classes/fr/shopwise/api/web/ShopController.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:221)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:810)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.11.08 22:30:04 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java
+2026.11.08 22:30:04 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:04 WARN  Running javac-semanticdb failed for file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/web/ShopControllerTest.java. Output:
+
+2026.11.08 22:30:05 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:05 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:05 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:05 WARN  Running javac-semanticdb failed for file:///C:/Users/imaur/Desktop/shopwise-projet/src/backend/src/test/java/fr/shopwise/api/web/ShopControllerTest.java. Output:
+
+2026.11.08 22:30:06 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java
+2026.11.08 22:30:06 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:06 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:06 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:11 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:12 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java
+2026.11.08 22:30:12 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:12 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:12 WARN  no build target for: C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java
+2026.11.08 22:30:12 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:30:12 INFO  no build target found for C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\test\java\fr\shopwise\api\web\ShopControllerTest.java. Using fallback presentation compiler.
+2026.11.08 22:42:16 INFO  Shutting down server
+2026.11.08 22:42:16 INFO  Memory monitor stopped
+2026.11.08 22:42:16 INFO  shutting down Metals
+2026.11.08 22:42:16 INFO  Exiting server

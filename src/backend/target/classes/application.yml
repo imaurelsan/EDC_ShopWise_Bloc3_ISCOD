@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/shopwise}
+    username: ${SPRING_DATASOURCE_USERNAME:shopwise}
+    password: ${SPRING_DATASOURCE_PASSWORD:shopwise}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+server:
+  port: 8080

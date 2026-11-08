@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ShopController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">shopwise-api</a> &gt; <a href="index.source.html" class="el_package">fr.shopwise.api.web</a> &gt; <span class="el_source">ShopController.java</span></div><h1>ShopController.java</h1><pre class="source lang-java linenums">package fr.shopwise.api.web;
+import fr.shopwise.api.model.*; import fr.shopwise.api.repo.*; import fr.shopwise.api.service.*;
+import jakarta.validation.Valid; import jakarta.validation.constraints.*;
+import org.springframework.web.bind.annotation.*; import org.springframework.http.HttpStatus;
+import java.time.LocalDate; import java.time.LocalTime; import java.util.List;
+@RestController @RequestMapping(&quot;/api&quot;) @CrossOrigin(origins=&quot;*&quot;)
+public class ShopController {
+ private final ShopService service; private final CustomerRepository customers;
+<span class="fc" id="L9"> public ShopController(ShopService s,CustomerRepository c){service=s;customers=c;}</span>
+<span class="fc" id="L10"> record CustomerBody(@NotNull Long shopId,@NotBlank String name,@Email @NotBlank String email,String phone){}</span>
+<span class="fc" id="L11"> record AppointmentBody(@NotNull Long customerId,@NotNull LocalDate date,@NotNull LocalTime time,@NotBlank String service){}</span>
+<span class="fc" id="L12"> record StatusBody(@NotNull Appointment.Status status){}</span>
+<span class="fc" id="L13"> @PostMapping(&quot;/clients&quot;) @ResponseStatus(HttpStatus.CREATED) public Customer create(@Valid @RequestBody CustomerBody b){return service.saveCustomer(toCustomer(b));}</span>
+<span class="fc" id="L14"> @GetMapping(&quot;/clients&quot;) public List&lt;Customer&gt; clients(){return customers.findAll();}</span>
+<span class="fc" id="L15"> @GetMapping(&quot;/clients/{id}&quot;) public Customer get(@PathVariable Long id){return service.customer(id);}</span>
+<span class="fc" id="L16"> @PutMapping(&quot;/clients/{id}&quot;) public Customer update(@PathVariable Long id,@Valid @RequestBody CustomerBody b){Customer c=service.customer(id);c.setShopId(b.shopId());c.setName(b.name());c.setEmail(b.email());c.setPhone(b.phone());return service.saveCustomer(c);}</span>
+<span class="fc" id="L17"> private Customer toCustomer(CustomerBody b){Customer c=new Customer();c.setShopId(b.shopId());c.setName(b.name());c.setEmail(b.email());c.setPhone(b.phone());return c;}</span>
+<span class="fc" id="L18"> @PostMapping(&quot;/appointments&quot;) @ResponseStatus(HttpStatus.CREATED) public Appointment createAppointment(@Valid @RequestBody AppointmentBody b){return service.createAppointment(b.customerId(),b.date(),b.time(),b.service());}</span>
+<span class="fc" id="L19"> @GetMapping(&quot;/appointments&quot;) public List&lt;Appointment&gt; appointments(@RequestParam(required=false) LocalDate date,@RequestParam(required=false) Appointment.Status status,@RequestParam(required=false) Long customerId){return service.listAppointments(date,status,customerId);}</span>
+<span class="fc" id="L20"> @PatchMapping(&quot;/appointments/{id}/status&quot;) public Appointment status(@PathVariable Long id,@Valid @RequestBody StatusBody b){return service.changeStatus(id,b.status());}</span>
+<span class="fc" id="L21"> @GetMapping(&quot;/clients/{id}/loyalty&quot;) public ShopService.LoyaltySummary loyalty(@PathVariable Long id){return service.loyalty(id);}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>

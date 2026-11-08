@@ -1,0 +1,11 @@
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\model\Appointment.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\model\Customer.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\model\LoyaltyTransaction.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\repo\AppointmentRepository.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\repo\CustomerRepository.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\repo\LoyaltyRepository.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ResourceMissingException.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\service\ShopService.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\ShopwiseApplication.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\web\ApiErrors.java
+C:\Users\imaur\Desktop\shopwise-projet\src\backend\src\main\java\fr\shopwise\api\web\ShopController.java

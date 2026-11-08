@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+shopwise-api,fr.shopwise.api,ShopwiseApplication,8,0,0,0,2,0,2,0,2,0
+shopwise-api,fr.shopwise.api.model,Customer,0,38,0,0,0,6,0,11,0,11
+shopwise-api,fr.shopwise.api.model,LoyaltyTransaction,15,25,0,0,1,6,5,6,5,6
+shopwise-api,fr.shopwise.api.model,Appointment.Status,0,21,0,0,0,1,0,1,0,1
+shopwise-api,fr.shopwise.api.model,Appointment,0,48,0,0,0,8,0,13,0,13
+shopwise-api,fr.shopwise.api.service,ShopService.LoyaltySummary,0,12,0,0,0,1,0,1,0,1
+shopwise-api,fr.shopwise.api.service,ResourceMissingException,0,4,0,0,0,1,0,1,0,1
+shopwise-api,fr.shopwise.api.service,ShopService,11,210,2,32,1,50,4,22,2,7
+shopwise-api,fr.shopwise.api.web,ShopController,0,104,0,0,0,10,0,10,0,10
+shopwise-api,fr.shopwise.api.web,ApiErrors.ErrorBody,6,0,0,0,1,0,1,0,1,0
+shopwise-api,fr.shopwise.api.web,ShopController.StatusBody,0,6,0,0,0,1,0,1,0,1
+shopwise-api,fr.shopwise.api.web,ShopController.CustomerBody,0,15,0,0,0,1,0,1,0,1
+shopwise-api,fr.shopwise.api.web,ApiErrors,15,0,0,0,3,0,3,0,3,0
+shopwise-api,fr.shopwise.api.web,ShopController.AppointmentBody,0,15,0,0,0,1,0,1,0,1

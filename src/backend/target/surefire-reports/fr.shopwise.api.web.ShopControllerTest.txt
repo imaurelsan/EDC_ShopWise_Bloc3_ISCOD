@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.shopwise.api.web.ShopControllerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.485 s -- in fr.shopwise.api.web.ShopControllerTest
